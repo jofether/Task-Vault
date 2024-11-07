@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/buttonHelloWorld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World App"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator App"
+        android:layout_below="@id/buttonHelloWorld"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCountriesFlag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countries' Flag App"
+        android:layout_below="@id/buttonCalculator"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonInfrared"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Infrared Communication"
+        android:layout_below="@id/buttonCountriesFlag"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonBluetoothStudy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Study"
+        android:layout_below="@id/buttonInfrared"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:layout_below="@id/buttonBluetoothStudy"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_below="@id/buttonBluetooth"/>
+
+</RelativeLayout>
